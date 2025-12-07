@@ -1,0 +1,147 @@
+================================================================================
+Expert Assignment Profiling Report
+================================================================================
+
+Overall Summary:
+  Number of MoE layers: 12
+  Average Gini coefficient: 0.4163
+  Maximum Gini coefficient: 0.7440
+  Average CV: 0.8617
+  Maximum CV: 1.8545
+
+================================================================================
+Per-Layer Statistics:
+================================================================================
+
+
+Layer: block.1.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.3119
+  Std deviation: 0.0740
+  Max/Min ratio: 4.42
+  Coefficient of variation: 0.5919
+  Most used expert: #5 (0.2524)
+  Least used expert: #3 (0.0571)
+--------------------------------------------------------------------------------
+
+Layer: block.3.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.3357
+  Std deviation: 0.0780
+  Max/Min ratio: 5.60
+  Coefficient of variation: 0.6239
+  Most used expert: #2 (0.2667)
+  Least used expert: #0 (0.0476)
+--------------------------------------------------------------------------------
+
+Layer: block.5.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.2929
+  Std deviation: 0.0672
+  Max/Min ratio: 12.25
+  Coefficient of variation: 0.5377
+  Most used expert: #7 (0.2333)
+  Least used expert: #6 (0.0190)
+--------------------------------------------------------------------------------
+
+Layer: block.7.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.3393
+  Std deviation: 0.0808
+  Max/Min ratio: 7.00
+  Coefficient of variation: 0.6461
+  Most used expert: #3 (0.3000)
+  Least used expert: #4 (0.0429)
+--------------------------------------------------------------------------------
+
+Layer: block.9.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.3143
+  Std deviation: 0.0706
+  Max/Min ratio: 6.87
+  Coefficient of variation: 0.5650
+  Most used expert: #4 (0.2619)
+  Least used expert: #7 (0.0381)
+--------------------------------------------------------------------------------
+
+Layer: block.11.layer.1.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.2738
+  Std deviation: 0.0656
+  Max/Min ratio: 5.18
+  Coefficient of variation: 0.5247
+  Most used expert: #1 (0.2714)
+  Least used expert: #5 (0.0524)
+--------------------------------------------------------------------------------
+
+Layer: block.1.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.3333
+  Std deviation: 0.0735
+  Max/Min ratio: 13.25
+  Coefficient of variation: 0.5876
+  Most used expert: #1 (0.2524)
+  Least used expert: #2 (0.0190)
+--------------------------------------------------------------------------------
+
+Layer: block.3.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.4048
+  Std deviation: 0.1013
+  Max/Min ratio: 12.67
+  Coefficient of variation: 0.8101
+  Most used expert: #1 (0.3619)
+  Least used expert: #2 (0.0286)
+--------------------------------------------------------------------------------
+
+Layer: block.5.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.4286
+  Std deviation: 0.1004
+  Max/Min ratio: 16.75
+  Coefficient of variation: 0.8029
+  Most used expert: #1 (0.3190)
+  Least used expert: #4 (0.0190)
+--------------------------------------------------------------------------------
+
+Layer: block.7.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.7238
+  Std deviation: 0.2318
+  Max/Min ratio: 76.50
+  Coefficient of variation: 1.8545
+  Most used expert: #7 (0.7286)
+  Least used expert: #4 (0.0095)
+--------------------------------------------------------------------------------
+
+Layer: block.9.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.7440
+  Std deviation: 0.2256
+  Max/Min ratio: 7047619047.62
+  Coefficient of variation: 1.8051
+  Most used expert: #0 (0.7048)
+  Least used expert: #3 (0.0000)
+--------------------------------------------------------------------------------
+
+Layer: block.11.layer.2.mlp.router
+  Number of experts: 8
+  Total assignments: 210
+  Gini coefficient: 0.4929
+  Std deviation: 0.1239
+  Max/Min ratio: 88.00
+  Coefficient of variation: 0.9910
+  Most used expert: #7 (0.4190)
+  Least used expert: #5 (0.0048)
+--------------------------------------------------------------------------------
