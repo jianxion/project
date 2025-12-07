@@ -42,11 +42,6 @@ wandb/
 *.tmp
 tmp/
 
-# Keep results structure but ignore large files
-results/**/*.png
-results/**/*.jpg
-results/**/*.pdf
-
 # Keep directory structure
 !results/.gitkeep
 !data/.gitkeep
