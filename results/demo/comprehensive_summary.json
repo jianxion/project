@@ -1,0 +1,46 @@
+{
+  "profiling": {
+    "average_gini": 0.516938737279957,
+    "max_gini": 0.6484395745918314,
+    "interpretation": "High imbalance detected"
+  },
+  "simulation": {
+    "balanced_time_us": 320.34959999999995,
+    "imbalanced_time_us": 398.99280000000005,
+    "slowdown_percent": 24.549180020827265
+  },
+  "assignment_strategies": {
+    "balanced": {
+      "gini": 0.0341796875
+    },
+    "round_robin": {
+      "gini": 0.0
+    },
+    "random": {
+      "gini": 0.07421875
+    },
+    "load_aware": {
+      "gini": 0.0283203125
+    }
+  },
+  "loss_functions": {
+    "balanced": {
+      "gini": 0.0,
+      "variance": 0.0,
+      "cv": 0.0,
+      "entropy": 1.1920928955078125e-07
+    },
+    "moderate_imbalance": {
+      "gini": 0.3678571581840515,
+      "variance": 0.007028061896562576,
+      "cv": 0.7169746160507202,
+      "entropy": 0.10668975114822388
+    },
+    "high_imbalance": {
+      "gini": 0.6499999761581421,
+      "variance": 0.031165113672614098,
+      "cv": 1.5098031759262085,
+      "entropy": 0.37479066848754883
+    }
+  }
+}

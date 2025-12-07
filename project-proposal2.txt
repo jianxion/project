@@ -1,0 +1,27 @@
+	•	Title & Student(s) Information
+	•	Project title: 
+Study on All-to-all communication for Mixture of Experts
+	•	Student name(s) and NetID(s):
+Tianhua Xia, tx856
+Jianxiong Shen, js12685
+	•	Course and semester
+High speed networks, Fall 2025
+	•	Motivation / Problem Statement (2–3 sentences)
+	•	What is the problem you want to address?
+I plan to study the expert load imbalance issue in MOE models, how changing the expert assignment will affect the model accuracy, and how the imbalance can be mitigated.
+	•	Why is it interesting or important?
+The MOE expert assignment requires GPU all-to-all communication. Expert imbalance causes communication latency skew, large tail latency, degrading system performance.
+	•	Objectives
+	•	Study the distribution of expert assignment in MOE models.
+	•	Study how changing the expert assignment by some heuristic methods impacts model accuracy.
+	•	Try further finetuning a MOE model using expert imbalance loss impact the model accuracy.
+	•	Simulate network performance under different expert assignment situations.
+	•	I expect to learn how bad the expert imbalance is, how sensitive the model is to the expert assignment, and potential solutions.
+	•	Proposed Approach / Methodology
+	•	I plan to first profile the expert assignment situations by recording the traces. Then add a function to change the expert assignment heuristically and check the mode accuracy. Finally, I plan to add an expert imbalance loss to finetune the model.
+	•	I plan to try on the microsoft/Phi-mini-MoE-instruct model and test the Wikitext and C4 perplexity, using Pytroch.
+	•	Expected Outcomes
+	•	Expert imbalance is obvious.
+	•	Changing expert assignment degrades the model accuracy moderately.
+	•	Finetune the MOE increase the model accuracy and mitigate expert imbalances.
+

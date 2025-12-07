@@ -1,0 +1,103 @@
+================================================================================
+Expert Assignment Profiling Report
+================================================================================
+
+Overall Summary:
+  Number of MoE layers: 8
+  Average Gini coefficient: 0.5169
+  Maximum Gini coefficient: 0.6484
+  Average CV: 1.0287
+  Maximum CV: 1.4727
+
+================================================================================
+Per-Layer Statistics:
+================================================================================
+
+
+Layer: model.layers.0.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.6484
+  Std deviation: 0.1841
+  Max/Min ratio: 31651.31
+  Coefficient of variation: 1.4727
+  Most used expert: #3 (0.5929)
+  Least used expert: #5 (0.0000)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.1.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.5402
+  Std deviation: 0.1352
+  Max/Min ratio: 243.46
+  Coefficient of variation: 1.0812
+  Most used expert: #6 (0.4446)
+  Least used expert: #7 (0.0018)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.2.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.5135
+  Std deviation: 0.1270
+  Max/Min ratio: 153.16
+  Coefficient of variation: 1.0159
+  Most used expert: #1 (0.4212)
+  Least used expert: #2 (0.0027)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.3.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.4490
+  Std deviation: 0.1048
+  Max/Min ratio: 203.61
+  Coefficient of variation: 0.8385
+  Most used expert: #1 (0.3243)
+  Least used expert: #0 (0.0016)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.4.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.6474
+  Std deviation: 0.1706
+  Max/Min ratio: 1533.80
+  Coefficient of variation: 1.3651
+  Most used expert: #1 (0.5404)
+  Least used expert: #0 (0.0004)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.5.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.4908
+  Std deviation: 0.1124
+  Max/Min ratio: 31.69
+  Coefficient of variation: 0.8993
+  Most used expert: #1 (0.3175)
+  Least used expert: #6 (0.0100)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.6.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.4221
+  Std deviation: 0.0983
+  Max/Min ratio: 28.82
+  Coefficient of variation: 0.7862
+  Most used expert: #6 (0.3034)
+  Least used expert: #7 (0.0105)
+--------------------------------------------------------------------------------
+
+Layer: model.layers.7.block_sparse_moe
+  Number of experts: 8
+  Total assignments: 10000
+  Gini coefficient: 0.4241
+  Std deviation: 0.0963
+  Max/Min ratio: 114.33
+  Coefficient of variation: 0.7704
+  Most used expert: #4 (0.2520)
+  Least used expert: #7 (0.0022)
+--------------------------------------------------------------------------------
