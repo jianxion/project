@@ -1,0 +1,16 @@
+{
+  "balance_weight": 500.0,
+  "train_set": {
+    "gini_before": 0.4014322916666666,
+    "gini_after": 0.3809895833333332,
+    "improvement_pct": 5.092442426208254
+  },
+  "test_set": {
+    "gini_before": 0.49374999999999997,
+    "gini_after": 0.4716666666666667,
+    "improvement_pct": 4.472573839662439
+  },
+  "training_history": {
+    "final_gini": 0.3794245719909668
+  }
+}
